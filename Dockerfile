@@ -1,7 +1,7 @@
 FROM node:10-alpine
 
 COPY package.json /app/
-COPY src /app/
+COPY image/src /app/
 WORKDIR /app
 RUN npm install 
 
